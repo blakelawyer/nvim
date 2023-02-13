@@ -31,3 +31,4 @@ vim.g.vimwiki_ext2syntax = {
 }
 
 vim.g.vimwiki_markdown_link_ext = 1
+vim.g.vimwiki_folding = "list"

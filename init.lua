@@ -15,3 +15,19 @@ require("blake.plugins.autopairs")
 require("blake.plugins.treesitter")
 require("blake.plugins.gitsigns")
 require("blake.plugins.copilot")
+
+vim.g.vimwiki_list = {
+	{
+		path = "~/vimwiki/",
+		syntax = "markdown",
+		ext = ".md",
+	},
+}
+
+vim.g.vimwiki_ext2syntax = {
+	[".md"] = "markdown",
+	[".markdown"] = "markdown",
+	[".mdown"] = "markdown",
+}
+
+vim.g.vimwiki_markdown_link_ext = 1
